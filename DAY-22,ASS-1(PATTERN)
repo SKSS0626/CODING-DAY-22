@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int row, col,start;
+
+    for(row=1; row<=3; row++) {
+        start = row * 4 - 3;
+        for(col=0; col<4; col++) {
+            printf("%d ", start + col * 2);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
